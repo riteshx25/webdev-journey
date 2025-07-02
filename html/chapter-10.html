@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chapter 10</title>
+</head>
+<body>
+    <p class="para" id="para_id">
+        <a href="#" target="_blank" title="Go to google">Google</a>
+    </p>
+
+    <form action="">
+        <label for="name"></label>
+        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    <p style="background-color: antiquewhite; color: blue;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, voluptatibus?</p>
+
+    <p class="myname" data-name="ritesh" data-user-id="1234">s</p>
+
+    <script>
+        let fname = document.querySelector(".myname")
+        console.log(fname.dataset.name);
+        console.log(fname.dataset.userId);
+    </script>
+</body>
+</html>
